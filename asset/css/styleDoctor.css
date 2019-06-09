@@ -1,0 +1,137 @@
+
+.doctors{
+    padding-bottom: 100px;
+}
+.doctorList{
+   background-color: #f9f9fa; 
+   padding:50px 15px;
+}
+.doctorList ul{
+    padding:0;
+}
+.doctorList ul li::before{
+content: "";
+border-left:5px solid #00bff3;
+position: absolute;
+left:-15px;
+top:0;
+height:100%;
+display: none}
+.doctorList ul li.active::before{
+    display: block;
+}
+.doctorList ul li.active a{
+    color:#00bff3;
+}
+.doctorList ul li{
+list-style-type:none;
+margin-top:40px;
+position: relative }
+.doctorList ul li a{ 
+text-decoration: none;
+    color:black;
+    font-weight: 600;
+    font-size: 16px;
+}
+.doctorList ul li a span{
+    font-weight: 500;
+    color:#aaaaab;
+    display: block;
+    font-size: 14px;
+}
+.doc-Desc span{
+    font-weight: 400;
+    color:#8a8787;
+    display: block;
+}
+.doctorList ul li a:hover{ 
+text-decoration: none;
+color:#00bff3;
+}
+.DoctorDetails h4{
+    color:black;
+    font-weight: 600;
+    margin:0;
+    font-size: 24px
+}
+.DoctorDetails span{
+    color:#00bff3;
+}
+.DoctorDetails p{
+    margin-top:20px;
+    font-size: 13px;
+    color:#b9b9b9
+}
+.doctors .doc-Desc {
+    background-color: #f9f9fa;
+    padding:40px 0;
+    text-align: center;
+}
+.DocrtorImgDesc{
+    width:100%;
+}
+.doctors .Doc-Img{
+    width:192px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.doctors .Doc-Img img{
+    border-radius:50%;
+    height: 192px;
+}
+.DescPar h4{
+    font-size:16px;
+    font-weight: 600;
+}
+.DescPar span{
+    color:#b3b3b4;
+    font-size:14px;
+}
+.doc-Desc h4{
+    font-size:14px;
+    font-weight: bold;
+
+}
+.DocSpecialist{
+    margin-top:70px;
+}
+.spaecTitle{
+    font-size: 14px;
+    font-weight: 500
+}
+
+.DocSpecialist ul{
+    margin:0;
+    padding:0;
+}
+.DocSpecialist.awards{
+    margin-top:50px;
+}
+.DocSpecialist ul li{
+    list-style-type: none;
+    color:#00bff3;
+    font-size: 14px;
+    font-weight: 500
+}
+.DoctorBox .DocSpecialist{
+    margin-top:20px;
+}
+.DoctorsStuff{
+    background-color: #eee
+}
+.DoctorBox{
+    text-align: center;
+    background-color: white;
+    padding:20px;
+    box-shadow: 1px 1px 9px 1px rgba(0,0,0,.2)
+}
+.doctorImg{
+    margin: 0 auto;
+    width:200px;
+    margin-bottom:20px;
+}
+.doctorImg img{
+    border-radius: 50%;
+    height:220px;
+
+}
